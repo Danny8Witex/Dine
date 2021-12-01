@@ -1,0 +1,17 @@
+.Name[type=text] {
+    border: none;
+    border-bottom: 2px solid red;}
+.foodpic{
+    background-image: url(./desktop.jpg);
+    background-size:contain;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* border: 0px 0px 0px 0px; */
+    /* padding: 10px 80px 10px 80px; */
+}
+.host{
+    border: 20px 20px 70px 10px;
+    color: white;
+    margin: 20px 20px 60px 20px;
+    padding: 20px 20px 60px 20px;
+}

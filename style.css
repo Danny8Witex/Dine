@@ -1,0 +1,201 @@
+.food {
+    position: relative;
+}
+
+.titleReserve {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 100vw;
+  min-height: 25vh;
+  color: #fff;
+  background-image: url("./assests/img/desktop.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 8rem 10rem 8rem;
+}
+
+.foodNavLogo {
+  font-size: 3rem;
+}
+
+.reserveTitle {
+  font-weight: 300;
+  font-size: 4rem;
+  margin-top: 13rem;
+}
+
+.reserveParagraph {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 1.3rem;
+  width: 25rem;
+  line-height: 1.6rem;
+}
+
+.reservePatternBox {
+  width: 100%;
+  height: 15em;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservePatternBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .patternBoxContainer {
+  position: relative;
+  margin-right: 10rem;
+}
+
+.patternBoxImg {
+  width: 7rem;
+  height: 3rem;
+  margin-top: 6rem;
+}
+
+.patternBoxImgSize {
+  position: absolute;
+  top: -50px;
+  right: -100px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+} 
+
+.footer {
+  max-width: 100%;
+  background: black;
+  color: #fff;
+  display: flex;
+  padding: 5rem;
+}
+
+.footerTitle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-left: 5rem;
+}
+
+.footerCenter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+.footerCenter > *,
+.footerRight > * {
+  font-size: 0.8rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+
+.footerRight {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+.modal {
+    position: absolute;
+    top: 328px!important;
+    left: 650px;
+    width: 25rem;
+    height: 17rem;
+    background: #fff;
+    padding: 20px;
+}
+
+.modalWrapper {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.modalInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalInputContainer > * {
+  margin-bottom: 10px;
+}
+
+.modalInput {
+    border: none;
+    border-bottom: 1px solid #bbb;
+    padding: 10px;
+    color: #000;
+    font-size: .7rem;
+}
+
+.modalInput:focus {
+  outline: none;;
+}
+
+.modalPick {
+    margin: 10px;
+}
+
+.modalTitle {
+  font-size: .7rem;
+  font-weight: 500;
+}
+
+.modalDate {
+    border: none;
+    border-bottom: 1px solid #bbb;
+}
+.modalTime {
+    border: none;
+}
+
+.modalReducer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #bbb;
+  padding: 1rem;
+}
+
+.reducerTitle {
+ font-size: .7rem;
+}
+
+.modalButton {
+  margin-top: 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: .7em;
+  width: 100%;
+  padding: .7rem;
+  font-weight: 500;
+  transition: 2sec ease;;
+}
+
+.modalButton:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="food">
+    <!-- Title & Reserve -->
+    <div class="titleReserve">
+    <!-- Title -->
+    <div class="foodNav">
+      <h1 class="foodNavLogo">dine</h1>
+    </div>
+    <!-- Reseve -->
+    <div class="foodReserve">
+      <h1 class="reserveTitle">Reservatioins</h1>
+      <p class="reserveParagraph">Lorem ipsum. Harum voluptas fuga natus nulla voluptatum possimus ex, atque distinctio velit iusto doloremque! Eos quia ex aspernatur laborum quidem odio maxime reiciendis</p>
+    </div>
+  </div>
+    <!-- pattern box -->
+    <div class="reservePatternBox">
+      <div class="patternBoxContainer">
+        <img src="./assests/icons/pattern-lines.svg" alt="" class="patternBoxImg">
+        <img src="./assests/icons/pattern-curve-bottom-right.svg" alt="" class="patternBoxImg patternBoxImgSize">
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <h1 class="footerTitle">dine</h1>
+      <div class="footerCenter">
+        <p>MARTHWAITE</p>
+        <p>CUMBRIA</p>
+        <p>+ 00 1234 5678</p>
+      </div>
+      <div class="footerRight">
+        <p>OPENING TIMES</p>
+        <p>MON - FRI:9:00am - 10:00pm</p>
+        <p>SAT - FRI:9:00am - 11:00pm</p>
+      </div>
+    </div>
+    <!-- modal -->
+    <div class="modal">
+      <div class="modalWrapper">
+        <div class="modalInputContainer">
+          <input type="text" class="modalInput" placeholder="Name">
+          <input type="email" class="modalInput" placeholder="Email">
+        </div>
+        <div class="modalPick">
+          <label for="date" class="modalTitle">Pick a date</label>
+          <input type="date" class="modalDate">
+        </div>
+        <div class="modalPick">
+          <label for="time" class="modalTitle">Pick a time</label>
+          <input type="time" class="modalTime">
+        </div>
+        <div class="modalReducer">
+          <img src="./assests/icons/icon-minus.svg" alt="" class="reducerSub">
+          <h2 class="reducerTitle">4 people</h2>
+          <img src="./assests/icons/icon-plus.svg" alt="" class="reducerAdd">
+        </div>
+        <button class="modalButton">MAKE RESERVATION</button>
+      </div>
+    </div>
+  </div>
+</body>
